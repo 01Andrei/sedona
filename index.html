@@ -34,12 +34,6 @@
             height="351"
             alt="добро пожаловать в Седону"
           />
-          <img
-            src="img/Shape-index.svg"
-            width="1200"
-            height="57"
-            alt="форма свг"
-          />
         </div>
         <div class="intro-text">
           <h1>Седона — небольшой городок в Аризоне,заслуживающий большего!</h1>
@@ -151,14 +145,38 @@
           Укажите предполагаемые даты поездки,<br />
           и мы покажем вам лучшие предложения гостиниц в Седоне
         </p>
-        <button class="search-btn" type="button">
-          <span>Поиск гостиницы в Седоне</span>
-        </button>
-        <!-- Здесь будет форма поиска -->
+        <a class="search-button" href="#"> Поиск гостиницы в Седоне </a>
+        <form action="https://echo.htmlacademy.ru" method="get">
+          <p>
+            <label for="appointment-date-1">Дата заезда:</label>
+            <input
+              type="text"
+              name="date-1"
+              value="24 апреля 2017"
+              id="appointment-date-1"
+            />
+          </p>
+          <p>
+            <label for="appointment-date-2">Дата выезда:</label>
+            <input
+              type="text"
+              name="date-2"
+              value="4 июля 2017"
+              id="appointment-date-2"
+            />
+          </p>
+          <p>
+            <label for="adults">Взрослые:</label>
+            <input type="text" name="adults" value="2" id="adults" />
+          </p>
+          <p>
+            <label for="children">Дети:</label>
+            <input type="text" name="children" value="0" id="children" />
+          </p>
+          <button type="submit">Найти</button>
+        </form>
       </section>
       <div>map</div>
-
-      <div></div>
     </main>
     <footer>
       <div class="footer-contacts">
