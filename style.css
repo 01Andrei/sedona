@@ -1,0 +1,18 @@
+:root {
+    --black: #000000;/*font-main*/
+    --dark: #333333;/*font-small*/
+    --gray: #666666;/*rating-font*/
+    --light-brown: #766357;/*background-button, active-page*/ 
+    --brown: #604E43; /*background-button-hover*/ 
+    --dark-brown: #503E33; /*background-button-active*/ 
+    --neutral: #EEEEEE;/*background-features*/
+    --neutral-2: #E5E5E5;/*hotels-border*/ 
+    --extra-light: #F2F2F2;/*background-forms, background-rating*/
+    --white: #ffffff;/*font-main*/
+    --light-blue: #81B3D2;/*background, svg, buttons*/
+    --blue: #81B3D2;/*background-button-hover*/
+    --dark-blue: #81B3D2;/*background-button-active*/
+
+  
+    ;
+}
